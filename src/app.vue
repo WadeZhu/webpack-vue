@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         hhhhh,这里是vue
-        <img src="./images/haha.png" alt="">
+        <p>hello world</p>
     </div>
 </template>
 
@@ -11,13 +11,14 @@ export default {
     name: 'App',
     components: {
     },
-    data() {
+    data () {
         return {
 
         }
     },
-    created() {
-        
+    created () {
+        console.log(123)
+        console.log(123)
     }
 }
 </script>
